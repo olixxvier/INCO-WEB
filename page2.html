@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="icon" href="img6.ico" type="image/x-icon">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Ensures the page grows to full height */
+        }
+        body {
+            background-image: url('img1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: greenyellow;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .content {
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent background for readability */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for better appearance */
+        }
+        h1 {
+            color: rgb(255, 77, 0);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: greenyellow;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: rgb(50, 50, 50);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left; /* Aligns text within the list items */
+        }
+        li p {
+            margin: 5px 0 0;
+        }
+        a {
+            color: rgb(0, 106, 255);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            padding: 10px 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .navigation {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>My Projects</h1>
+        <h2>Here are some projects I'm working on:</h2>
+        <ul>
+            <li>
+                <strong>Anime Web</strong>
+                <p>A platform for anime lovers to discover and share anime series and movies.</p>
+            </li>
+            <li>
+                <strong>Movie Website</strong>
+                <p>An advanced platform to browse, review, and discover the latest movies.</p>
+            </li>
+            <li>
+                <strong>AI Projects</strong>
+                <p>Developing intelligent solutions for real-world problems using cutting-edge AI technology.</p>
+            </li>
+        </ul>
+        <div class="navigation">
+            <a href="page1.html" class="back-link">Go Back to Homepage</a>
+            <a href="page.htm" class="back-link">Go Back to Page 2</a>
+            <a href="page3.html" class="next-link">Go to Page 4</a>
+        </div>
+    </div>
+</body>
+</html>
